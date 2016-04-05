@@ -1,0 +1,9 @@
+define(['zepto'],function($){
+	$('.dropdown-toggle').on('click',function(e){
+		e.preventDefault();
+		$(this).parent().toggleClass('open');
+	});
+	$('body').on('click','.dropdown-menu',function(){
+		$(this).parent().removeClass('open');
+	});
+});

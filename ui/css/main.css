@@ -1,0 +1,31 @@
+.W_s_input{background:#f6f6f6;padding: 20px;}
+.W_s_txtarea{width: 1000px;margin: auto;}
+.W_s_txtarea .form-control{width: 100%;height: 150px;resize: none;}
+.W_s_txtarea .btn{margin-top: 15px;}
+.W_s_chose,.W_s_fontPanel{width: 1000px;margin:20px auto;}
+.W_s_panelClose{float: right;font-size: 20px;cursor: pointer;}
+.W_s_font_eg{height: 120px;overflow: hidden;}
+.W_s_link_download a{display: inline-block;margin-right: 20px;}
+.W_s_link_download a:hover{text-decoration: none;}
+.W_s_fontNamePosts{margin: 20px 0;}
+.W_s_fontNamePosts>.label{font-size: 20px;}
+.W_s_fontNamePosts>.label>span:last-child{cursor:pointer;}
+.W_s_fontNamePosts>.label>span:first-child{margin-right: 40px;}
+.label-primary.large{margin: 10px;}
+.W_s_panelClose,.W_s_link_download{display: none;}
+.W_s_chose{position: relative;}
+.W_s_upload{position: absolute;right: 0;top: 0;}
+.J_hover{height: 240px;}
+.W_s_shade{position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,0,0,0.7);z-index: 300;display: none;}
+.W_s_animation{animation:loading 1s ease infinite alternate;}
+.W_s_shade .W_s_shadeMsg{font-size: 50px;position: absolute;top: 40%;left:0;right:0;color: #eee;text-shadow: 0 0 10px rgba(0,0,0,0.8);text-align: center;}
+.W_s_shadeClose{position: absolute;top: 30px;right: 30px;font-size: 30px;color: #eee;cursor:pointer;}
+.W_s_shadeMsg span{vertical-align: middle;margin-right: 10px;}
+@keyframes loading {
+	0% {
+		background: rgba(0,0,0,0.7);
+	}
+	100% {
+		background: rgba(0,0,0,0.5);
+	}
+}
